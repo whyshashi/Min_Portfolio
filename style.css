@@ -54,17 +54,21 @@ body {
 }
 
 .second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
-  background-color: #56a4e3;
+  background-color: #b5d7ff;
   width: 65vw;
+
 }
 img {
   width: 100%;
   height: auto;
 }
 .name {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.5vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vh;
   line-height: 70px;
   margin-left: 5vw;
 }
@@ -94,4 +98,36 @@ img {
     padding: 10px 60px;
     color: black;
     text-decoration: none;
+}
+
+#res2{
+  margin-left: 10px;
+}
+#sone{
+  margin: 20vh 10vw;
+}
+#aboutme{
+  font-family: 'Gloock', serif;
+  font-size: 6vh;
+}
+hr{
+  margin-top:  6vh;
+  margin-bottom: 5vh;
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+#bio{
+
+  font-family: 'Poppins', sans-serif;
+}
+#social{
+  margin:20px 0px;
+  size: 20vw;
+}
+#res{
+  margin: 5vh 0;
+}
+.s{
+  font-size: 100px;
 }
